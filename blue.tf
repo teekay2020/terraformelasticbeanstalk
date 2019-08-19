@@ -1,7 +1,7 @@
 # --- BLUE ENVRIONMENT --- #
 
 resource "aws_elastic_beanstalk_environment" "nap-blue" {
-  name                = "shegoj-homepage-app-nap-blue"
+  name                = "homepage-app-nap-blue"
   application         = "${aws_elastic_beanstalk_application.adapt-webapp.name}"
   solution_stack_name = "${var.blue_stack_vars["stack"]}"
   cname_prefix        = "${var.blue_stack_vars["cname_prefix"]}"
