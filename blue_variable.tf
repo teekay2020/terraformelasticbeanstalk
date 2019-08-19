@@ -7,7 +7,7 @@ variable "nap-blue_stack_vars" {
 
   default = {
     stack = "64bit Amazon Linux 2017.03 v2.6.0 running Docker 1.12.6"
-    cname_prefix = "shegoj-homepage-app-nap-blue"
+    cname_prefix = "homepage-app-nap-blue"
     instance_type  = "t1.mirco"
     root_volume_size = "8"
     connection_draining_enabled = "true"
